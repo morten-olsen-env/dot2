@@ -1,0 +1,7 @@
+
+[submodule "packages/oh-my-zsh/git"]
+	path = packages/oh-my-zsh/git
+	url = https://github.com/robbyrussell/oh-my-zsh
+[submodule "packages/node/git"]
+	path = packages/node/git
+	url = https://github.com/creationix/nvm
