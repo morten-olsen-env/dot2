@@ -5,4 +5,7 @@ PACKAGES=(
   android
   byobu
   vim
+  go
+  python
+  scripts
 )

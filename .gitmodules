@@ -5,3 +5,6 @@
 [submodule "packages/node/git"]
 	path = packages/node/git
 	url = https://github.com/creationix/nvm
+[submodule "packages/python/git"]
+	path = packages/python/git
+	url = https://github.com/pyenv/pyenv

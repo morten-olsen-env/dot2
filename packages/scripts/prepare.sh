@@ -1,0 +1,1 @@
+export PATH=$PATH:$PACKAGE_DIR/bin
