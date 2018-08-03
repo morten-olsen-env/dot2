@@ -20,7 +20,7 @@ echo 'installing'
 rm -f $HOME/.zshrc
 if [ ! -f $HOME/.zshrc ]; then
   ln -s $DOT_FILE_DIR/init.sh $HOME/.zshrc
-  if [ -f $HOME/.zshrc ] && [ -d $HOME/.zsh ]; then
+  if [ -f $HOME/.zshrc ]; then
     echo "zsh config installed"
     echo "setting up modules"
     cd $DOT_FILE_DIR
