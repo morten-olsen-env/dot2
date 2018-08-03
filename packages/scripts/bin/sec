@@ -1,3 +1,4 @@
+#!/bin/bash
 case "$1" in
   aprotect)
     gpg -se -r "morten@olsen.io" $2
