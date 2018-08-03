@@ -1,4 +1,9 @@
 :let packagedir = $VIM_PLUGIN_PATH
+:let basedir = $VIM_BASE_PATH
+
+let g:vimwiki_list = [
+    \{'path': basedir . '/wiki/index.wiki'}
+\]
 
 " let &runtimepath.=','.string(packagedir)
 let &runtimepath.=','.escape(expand('<sfile>:p:h'), '\,')
@@ -10,6 +15,7 @@ filetype plugin indent on
 
 call plug#begin(packagedir)
 
+Plug 'vimwiki/vimwiki', { 'branch': 'dev' }
 Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'leafgarland/typescript-vim'
