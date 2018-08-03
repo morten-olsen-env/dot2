@@ -11,4 +11,11 @@ case "$1" in
     git push
     cd $INITDIR
   ;;
+  update)
+    INITDIR=$PWD
+    cd $DOT_FILE_DIR
+    git pull
+    git submodule update
+    cd $INITDIR
+  ;;
 esac
