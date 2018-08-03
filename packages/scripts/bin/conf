@@ -1,7 +1,10 @@
 #!/bin/bash
 case "$1" in
   edit)
-    code $DOT_FILE_DIR
+    INITDIR=$PWD
+    cd $DOT_FILE_DIR
+    $EDITOR .
+    cd $INITDIR
   ;;
   save)
     INITDIR=$PWD
