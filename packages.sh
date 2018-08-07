@@ -1,4 +1,5 @@
 PACKAGES=(
+  scripts
   oh-my-zsh
   node
   ruby
@@ -7,5 +8,4 @@ PACKAGES=(
   vim
   go
   python
-  scripts
 )

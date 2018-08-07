@@ -1,15 +1,15 @@
 #!/bin/bash
 case "$1" in
   aprotect)
-    gpg -se -r "morten@olsen.io" $2
+    gpg -se -r "morten@olsen.pro" $2 | pbcopy
   ;;
   aunprotect)
-    gpg -d -u "morten@olsen.io" -o "$3" "$2"
+    gpg -d -u "morten@olsen.pro" -o "$3" "$2"
   ;;
   sprotect)
-    echo $2 | openssl enc -e -aes-256-cbc -a -salt
+    echo $2 | openssl enc -e -aes-256-gcm -a -salt | pbcopy
   ;;
   sunprotect)
-    echo $2 | openssl enc -d -aes-256-cbc -a -salt
+    echo $2 | openssl enc -d -aes-256-gcm -a -salt
   ;;
 esac
