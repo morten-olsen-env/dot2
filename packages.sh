@@ -1,7 +1,9 @@
 PACKAGES=(
   scripts
   oh-my-zsh
+  dotnet
   node
+  powershell
   ruby
   android
   byobu
