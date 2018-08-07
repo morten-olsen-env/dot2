@@ -8,7 +8,7 @@ PACKAGES=(
   ruby
   android
   byobu
-  vim
+  # vim
   go
   python
 )
