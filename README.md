@@ -18,4 +18,6 @@ This comes prepacked with
 * vim (nvim)
 * vscode
 
-Be aware that everything is relative to this directory, so doing a clean will also remove everything including but not limited to vscode configs and extensions.
+Be aware: All tools are installed locally, but it might install dependencies system wide if not available. Search this project for `require.sh` to find all system wide tools
+
+Be aware: Everything is relative to this directory, so doing a clean will also remove everything including but not limited to vscode configs and extensions.
