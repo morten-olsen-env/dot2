@@ -6,7 +6,7 @@ A .dot file compilation for `MacOS` which does the heavy listing of setting the 
 This comes prepacked with
 
 * android-sdk
-* byobu
+* byobu-config
 * dotnet
 * golang
 * node (nvm)
