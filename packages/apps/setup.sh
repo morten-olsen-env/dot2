@@ -4,5 +4,6 @@ brew cask install \
     firefox \
     slack \
     keepassxc \
-    adobe-photoshop-lightroom
+    adobe-photoshop-lightroom \
+    postman
 brew install slackcat
