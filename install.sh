@@ -24,8 +24,8 @@ if [ ! -f $HOME/.zshrc ]; then
     echo "zsh config installed"
     echo "setting up modules"
     cd $DOT_FILE_DIR
-    # git submodule init
-    # git submodule update
+    git submodule init
+    git submodule update
     git submodule update --init --recursive
     cd $INIT_DIR
     # chsh -s $(grep /zsh$ /etc/shells | tail -1)
