@@ -4,7 +4,7 @@ PACKAGES=(
   dotnet
   node
   powershell
-  docker
+  apps
   vscode
   ruby
   android

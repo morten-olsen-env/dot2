@@ -6,8 +6,8 @@ A .dot file compilation for `MacOS` which does the heavy listing of setting the 
 This comes prepacked with
 
 * android-sdk
+* default apps (global)
 * byobu-config
-* docker (global)
 * dotnet
 * golang
 * node (nvm)
