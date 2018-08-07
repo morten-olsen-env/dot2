@@ -4,6 +4,7 @@ PACKAGES=(
   dotnet
   node
   powershell
+  vscode
   ruby
   android
   byobu

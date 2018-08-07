@@ -1,6 +1,7 @@
 echo "Installing Android"
+URL=https://dl.google.com/android/repository/sdk-tools-darwin-3859397.zip
 # TODO: Change for non darwin, to use linux version
-curl https://dl.google.com/android/repository/sdk-tools-darwin-3859397.zip -o android.zip
+curl $URL -o android.zip
 mkdir -p $ANDROID_HOME
 mv android.zip $ANDROID_HOME
 pushd $ANDROID_HOME
