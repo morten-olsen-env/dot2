@@ -7,6 +7,7 @@ This comes prepacked with
 
 * android-sdk
 * byobu-config
+* docker (global)
 * dotnet
 * golang
 * node (nvm)
@@ -18,6 +19,6 @@ This comes prepacked with
 * vim (nvim)
 * vscode
 
-Be aware: All tools are installed locally, but it might install dependencies system wide if not available. Search this project for `require.sh` to find all system wide tools
+Be aware: All tools are installed locally (if not marked global), but it might install dependencies system wide if not available. Search this project for `require.sh` to find all system wide tools
 
 Be aware: Everything is relative to this directory, so doing a clean will also remove everything including but not limited to vscode configs and extensions.
