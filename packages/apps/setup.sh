@@ -1,3 +1,4 @@
+brew tap caskroom/versions
 brew cask install \
     docker \
     google-chrome \
@@ -5,5 +6,14 @@ brew cask install \
     slack \
     keepassxc \
     adobe-photoshop-lightroom \
-    postman
-brew install slackcat
+    hyper \
+    transmit \
+    veracrypt \
+    postman \
+    java8 \
+    vlc
+brew install \
+    slackcat \
+    yarn \
+    watchman \
+    sshfs
