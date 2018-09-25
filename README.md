@@ -13,6 +13,7 @@ This comes prepacked with
 * node (nvm)
 * oh-my-zsh
 * powershell
+* jdk
 * python (pyenv)
 * ruby (rvm)
 * custom scripts

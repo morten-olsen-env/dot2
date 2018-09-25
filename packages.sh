@@ -11,5 +11,6 @@ PACKAGES=(
   byobu
   # vim
   go
+  jdk
   python
 )
