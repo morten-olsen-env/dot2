@@ -4,13 +4,10 @@ brew cask install \
     google-chrome \
     firefox \
     slack \
-    keepassxc \
-    adobe-photoshop-lightroom \
     hyper \
     transmit \
     veracrypt \
     postman \
-    java8 \
     vlc
 brew install \
     slackcat \
