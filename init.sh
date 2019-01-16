@@ -29,3 +29,5 @@ do
   unset PACKAGE_DIR
 done
 unset PACKAGES
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

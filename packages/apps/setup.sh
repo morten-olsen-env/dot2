@@ -1,16 +1,25 @@
-brew tap caskroom/versions
-brew cask install \
+if [ $(uname) = 'Darwin' ]; then
+  brew tap caskroom/fonts
+  brew tap caskroom/versions
+  brew cask install \
     docker \
-    google-chrome \
-    firefox \
     slack \
-    hyper \
-    transmit \
+    protonmail-bridge \
+    tunnelblick \
+    keybase \
+    duet \
     veracrypt \
-    postman \
+    gpg-suite \
+    brave-browser \
+    font-firacode-nerd-font \
     vlc
-brew install \
+  brew install \
     slackcat \
     yarn \
+    bitwarden-cli \
     watchman \
+    ykman \
+    fd \
+    fzf \
     sshfs
+fi

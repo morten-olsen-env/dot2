@@ -8,7 +8,7 @@ let g:vimwiki_list = [
 " let &runtimepath.=','.string(packagedir)
 let &runtimepath.=','.escape(expand('<sfile>:p:h'), '\,')
 let g:loaded_python_provide=1
-let g:python_host_prog = '/usr/local/bin/python'
+let g:python_host_prog = '/usr/local/bin/python2'
 
 syntax on
 filetype plugin indent on
@@ -38,6 +38,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'mxw/vim-jsx'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'vim-airline/vim-airline-themes'
+Plug 'w0rp/ale'
 
 call plug#end()
 
@@ -111,3 +112,6 @@ map <up> <nop>
 map <down> <nop>
 map <left> <nop>
 map <right> <nop>
+
+let g:WebDevIconsNerdTreeGitPluginForceVAlign = 0
+
